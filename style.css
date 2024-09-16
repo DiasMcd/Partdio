@@ -1,0 +1,116 @@
+body {
+    margin: 0; /* Remove as margens padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    font-family: Arial, sans-serif; /* Define a fonte do corpo como Arial, com uma alternativa sans-serif */
+    background-color: #0000ff; /* Define a cor de fundo do corpo como azul (#0000ff) */
+}
+
+/* Estiliza a navegação do cabeçalho */
+header nav {
+    background-color: #0000ff; /* Define a cor de fundo da barra de navegação como azul (#0000ff) */
+    height: 60px; /* Define a altura da barra de navegação como 60 pixels */
+    display: flex; /* Usa o layout flexível para organizar os itens dentro da barra de navegação */
+    align-items: center; /* Alinha verticalmente os itens ao centro da barra de navegação */
+    padding: 0 20px; /* Adiciona 20 pixels de preenchimento à esquerda e à direita da barra de navegação */
+    justify-content: space-between; /* Distribui os itens horizontalmente, com espaço igual entre eles */
+}
+
+/* Estiliza a lista de itens na barra de navegação */
+header nav ul {
+    display: flex; /* Usa o layout flexível para organizar os itens da lista horizontalmente */
+    margin: 0; /* Remove a margem padrão ao redor da lista */
+    padding: 0; /* Remove o preenchimento padrão ao redor da lista */
+    list-style: none; /* Remove os marcadores padrão da lista */
+    flex: 1; /* Permite que a lista ocupe o máximo de espaço disponível */
+    justify-content: space-around; /* Distribui os itens igualmente ao longo da linha */
+}
+
+/* Estiliza os links dentro dos itens da lista de navegação */
+header nav ul li a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #fff; /* Define a cor do texto dos links como branco (#fff) */
+    font-size: 18px; /* Define o tamanho da fonte dos links como 18 pixels */
+    font-weight: bold; /* Define o peso da fonte dos links como negrito */
+}
+
+/* Estiliza o contêiner do conteúdo principal */
+.content-wrapper {
+    display: flex; /* Usa o layout flexível para organizar o conteúdo principal */
+    align-items: flex-start; /* Alinha o conteúdo ao início do contêiner (parte superior) */
+    padding: 30px; /* Adiciona 30 pixels de preenchimento ao redor do conteúdo */
+    background-color: #0000ff; /* Define a cor de fundo do contêiner como azul (#0000ff) */
+    border-radius: 40px; /* Adiciona bordas arredondadas com 40 pixels de raio */
+}
+
+/* Estiliza a seção de imagem dentro do contêiner de conteúdo */
+.imagem {
+    flex: 1; /* Permite que a seção de imagem ocupe 1 parte do espaço disponível */
+    display: flex; /* Usa o layout flexível para organizar o conteúdo da imagem */
+    justify-content: center; /* Centraliza a imagem horizontalmente dentro da seção */
+    padding-right: 20px; /* Adiciona 20 pixels de preenchimento à direita da seção de imagem */
+    margin-top: 100px; /* Adiciona 100 pixels de margem acima da seção de imagem */
+}
+
+/* Estiliza as imagens dentro da seção de imagem */
+.imagem img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da altura da imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas com 10 pixels de raio */
+}
+
+/* Estiliza o texto dentro do contêiner de conteúdo */
+.txt {
+    flex: 2; /* Permite que a seção de texto ocupe 2 partes do espaço disponível */
+    color: #ffffff; /* Define a cor do texto como branco (#ffffff) */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estiliza os títulos dentro da seção de texto */
+.txt h2 {
+    margin: 0 0 50px; /* Remove a margem superior e adiciona 50 pixels de margem inferior */
+    font-size: 70px; /* Define o tamanho da fonte dos títulos como 70 pixels */
+    font-weight: bold; /* Define o peso da fonte dos títulos como negrito */
+}
+
+/* Estiliza os parágrafos dentro da seção de texto */
+.txt p {
+    margin: 0 0 150px; /* Remove a margem superior e adiciona 150 pixels de margem inferior */
+    font-size: 30px; /* Define o tamanho da fonte dos parágrafos como 30 pixels */
+    line-height: 1.6; /* Define a altura da linha como 1.6 vezes o tamanho da fonte para melhorar a legibilidade */
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #003cff; /* Define a cor de fundo do rodapé como azul escuro (#003cff) */
+    color: #fff; /* Define a cor do texto do rodapé como branco (#fff) */
+    text-align: center; /* Centraliza o texto dentro do rodapé */
+    padding: 20px 0; /* Adiciona 20 pixels de preenchimento acima e abaixo do texto do rodapé */
+    position: relative; /* Define a posição do rodapé como relativa para permitir posicionamento ajustável */
+    bottom: 0; /* Alinha o rodapé ao fundo do contêiner pai */
+    width: 100%; /* Define a largura do rodapé como 100% do contêiner pai */
+    margin-top: 40px; /* Adiciona 40 pixels de margem superior antes do rodapé */
+}
+
+/* Estiliza o conteúdo dentro do rodapé */
+.footer-content {
+    max-width: 1000px; /* Define a largura máxima do conteúdo do rodapé como 1000 pixels */
+    margin: 0 auto; /* Centraliza o conteúdo do rodapé horizontalmente */
+}
+
+/* Estiliza os parágrafos dentro do rodapé */
+footer p {
+    margin: 5px 0; /* Define a margem superior e inferior dos parágrafos como 5 pixels */
+    font-size: 16px; /* Define o tamanho da fonte dos parágrafos como 16 pixels */
+    font-family: Arial, sans-serif; /* Define a fonte dos parágrafos como Arial, com uma alternativa sans-serif */
+}
+
+/* Estiliza os links dentro do rodapé */
+footer a {
+    color: #fff; /* Define a cor do texto dos links como branco (#fff) */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+/* Estiliza os links quando o mouse passa sobre eles */
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado aos links quando o mouse passa sobre eles */
+}
